@@ -2,4 +2,4 @@
 output/
 
 #ignore the gitattribute file
-.gitattribute
+.gitattributes
