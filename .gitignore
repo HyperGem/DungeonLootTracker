@@ -1,2 +1,5 @@
 # ignore any output folders
 output/
+
+#ignore the gitattribute file
+.gitattribute
