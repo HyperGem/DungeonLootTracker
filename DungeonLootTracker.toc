@@ -1,0 +1,8 @@
+## Interface: 11303
+## Title: DungeonLootTracker
+## Notes: Tracks loots for all party members during dungeon.
+## Author: HyperGem
+## Version: 0.8
+## DefaultState: enabled
+
+Core.lua
