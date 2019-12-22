@@ -1,8 +1,17 @@
-print("Hello Azeroth");
+-- Setting up testing environment in WOW Client.
+------------------------------------------------------------------
+SLASH_RELOADUI1 = "/rl"
+SlashCmdList.RELOADUI = ReloadUI
 
-function welcome()
-
-	message("Welcome to Azeroth");
+SLASH_FRAMESTK1 = "/fs/"
+SlashCmdList.FRAMESTK = function()
+	LoadAddOn('Blizzard_DebugTools')
+	FrameStackTooltip_Toggle()
 end
 
-welcome();
+for i = 1, NUM_CHAT_WINDOWS do
+	_G["ChatFrame"..i.."EditBox"]:SetAltArrowKeyMode(false)
+end
+
+------------------------------------------------------------------
+
