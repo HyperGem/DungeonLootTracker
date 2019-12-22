@@ -2,4 +2,4 @@
 output/
 
 #ignore all text files for testing purposes
-testing.txt
+*.txt
